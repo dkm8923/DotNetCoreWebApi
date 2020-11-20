@@ -2,7 +2,7 @@
 
 namespace DotNetCoreWebApi.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class ResetDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,9 +12,9 @@ namespace DotNetCoreWebApi.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Address1 = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Address1 = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     Address2 = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    City = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    City = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     StateId = table.Column<int>(type: "int", nullable: false),
                     PostalCode = table.Column<int>(type: "int", nullable: false)
                 },

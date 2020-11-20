@@ -3,14 +3,16 @@ using DotNetCoreWebApi.Services.Common.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DotNetCoreWebApi.Migrations
 {
     [DbContext(typeof(CommonDbContext))]
-    partial class CommonContextModelSnapshot : ModelSnapshot
+    [Migration("20201120043549_AddressRowSeed")]
+    partial class AddressRowSeed
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,13 +28,19 @@ namespace DotNetCoreWebApi.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Address1")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("Address2")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<int>("PostalCode")
                         .HasColumnType("int");
@@ -43,6 +51,17 @@ namespace DotNetCoreWebApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Addresses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address1 = "5774 E Wallings Rd",
+                            Address2 = "test address 2",
+                            City = "Broadview Heights",
+                            PostalCode = 44147,
+                            StateId = 1
+                        });
                 });
 
             modelBuilder.Entity("DotNetCoreWebApi.Services.Common.Models.UsaState", b =>
