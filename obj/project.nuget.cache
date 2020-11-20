@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "blZVFq2dWr73/SDFsse2bbUHf8UPWqy8RpZMXEZQyYUSRbIvJI4em9U3PsaEuGKGDqhOW/SGDLBko2hxZASR5A==",
+  "dgSpecHash": "ioJwgr4LrLSk+M45cda3nBp7el3DmJA91bRJm8Oxgk5me+cTEjGziT86jDXCRYeii5eXp4fC1zipu63TycOEMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
+  "projectFilePath": "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dkm89\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\dkm89\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\dkm89\\.nuget\\packages\\microelements.swashbuckle.fluentvalidation\\4.0.0\\microelements.swashbuckle.fluentvalidation.4.0.0.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.10\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.10.nupkg.sha512",
     "C:\\Users\\dkm89\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

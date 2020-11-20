@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj": {}
+    "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj": {
+    "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
         "projectName": "DotNetCoreWebApi",
-        "projectPath": "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
+        "projectPath": "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\DotNetCoreWebApi.csproj",
         "packagesPath": "C:\\Users\\dkm89\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dkm89\\Desktop\\CodeStuff\\DotNetCoreWebApi\\obj\\",
+        "outputPath": "C:\\Users\\dkm89\\Documents\\GitHub\\DotNetCoreWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dkm89\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[9.3.0, )"
+            },
+            "MicroElements.Swashbuckle.FluentValidation": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
