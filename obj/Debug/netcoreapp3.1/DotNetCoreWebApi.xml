@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetCoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:DotNetCoreWebApi.Services.Common.Controllers.AddressController.GetAllAddresses">
+            <summary>
+            Returns all Addresses in DB
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCoreWebApi.Services.Common.Controllers.AddressController.GetAddressById(System.Int32)">
+            <summary>
+            Returns specific Address record from DB
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCoreWebApi.Services.Common.Controllers.AddressController.CreateAddress(DotNetCoreWebApi.Services.Common.Dtos.AddressCreateDto)">
+             <summary>
+             Creates a specific Address
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Address
+                 {
+                    "address1": "5774 E. Wallings Rd",
+                    "address2": "Deliver To Side Door",
+                    "city": "Broadview Heights",
+                    "stateId": 1,
+                    "postalCode": 44147
+                 }
+            
+             </remarks>
+             <param name="req"></param>
+             <returns>A newly created Address</returns>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>   
+        </member>
+        <member name="M:DotNetCoreWebApi.Services.Common.Controllers.AddressController.UpdateAddress(System.Int32,DotNetCoreWebApi.Services.Common.Dtos.AddressUpdateDto)">
+            <summary>
+            Updates a specific Address
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DotNetCoreWebApi.Services.Common.Controllers.AddressController.DeleteAddress(System.Int32)">
+            <summary>
+            Deletes a specific Address
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
